@@ -1,0 +1,17 @@
+.mi-span-atractivo {
+    color: orange;  /* Cambia el color según tu preferencia */
+    font-size: 1.5em;  /* Cambia el tamaño de la fuente según tu preferencia */
+    font-weight: bold;  /* Puedes ajustar la negrita según tu preferencia */
+    /* Agrega más estilos según sea necesario */
+}
+
+@keyframes cambiaColor {
+    0% { color: #6ccaf0; }  /* Color inicial */
+    50% { color: #ececec; } /* Color intermedio */
+    100% { color: #6ccaf0; } /* Color final */
+  }
+  
+  .mi-span-atractivo {
+    /* Otros estilos... */
+    animation: cambiaColor 3s infinite; /* La animación dura 3 segundos y se repite infinitamente */
+}
